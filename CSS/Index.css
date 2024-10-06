@@ -1,0 +1,91 @@
+header{
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: #800080;
+    color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.nome-sistema {
+    font-size: 18px;
+    color: #000;
+}
+
+.user-info {
+    background-color: #800080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #b1abab;
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    position: relative;
+    margin-right: 30px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilo para o submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #e4e1e1;
+    border: 1px solid #000000;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    border-bottom: 1px solid #000000;
+}
+
+.submenu a {
+    padding: 10px 20px;
+    color: #666;
+}
+
+.submenu a:hover {
+    background-color: #e0e0e0;
+}
+
+.corpo{
+    background-color: #4556c0;
+    padding: 100px;
+}
+
+footer{
+    background-color: #45c06e;
+    /* padding: 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
