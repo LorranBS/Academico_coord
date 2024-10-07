@@ -90,7 +90,7 @@ nav {
 
 .conteudoAvaliacao{
     background-color: #c0c0c0;
-    height: 75vh;
+    height: 75.5vh;
     display: flex;
     justify-content: space-between;
 }
@@ -157,6 +157,79 @@ nav {
 }
 
 .conteudoAvaliacao .historicoAvaliaca p{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* Definição de professor por disciplina */
+
+.definirProfessor{
+    background-color: #c0c0c0;
+    height: 75.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.definirProfessor .naoDefinido{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.definirProfessor .naoDefinido .buscaDisciplina{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.definirProfessor .naoDefinido .dropdownDisciplina{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+.definirProfessor .naoDefinido .conteúdo{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.definirProfessor .naoDefinido .conteúdo .disciplina{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+.definirProfessor .naoDefinido .conteúdo .disciplina p{
+    margin-right: 1rem ;
+    
+}
+
+.definirProfessor .naoDefinido .salvarDefinicao{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+.definirProfessor .jaDefinido{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+.definirProfessor .jaDefinido .buscaDisciplina{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.definirProfessor .jaDefinido .dropdownDisciplina{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.definirProfessor .jaDefinido .conteudo p{
     text-align: center;
     padding-top: 1rem;
 }
