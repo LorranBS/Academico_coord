@@ -384,6 +384,79 @@ nav {
 }
 
 
+.salas{
+    background-color: #c0c0c0;
+    height: 75.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.salas .definirSala{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.salas .definirSala .buscarDisciplina{
+    margin-top: 1rem;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.salas .definirSala .dropdownDisciplina{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around; 
+}
+
+.salas .definirSala .conteudo{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.salas .definirSala .conteudo .disciplina{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    height: 3rem; 
+    justify-content: space-around;
+    width: 25rem;
+}
+
+
+.salas .definirSala .conteudo .disciplina p{
+    padding-top: 0.5rem;
+}
+.salas .definirSala .conteudo .disciplina button{
+    height: 2rem;
+    margin-top: 0.53rem;
+}
+
+.salas .definirSala .salvar{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.salas .salasDisponiveis{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+.salas .salasDisponiveis .conteudo{
+    margin-top: 1rem;
+}
+.salas .salasDisponiveis .conteudo p{
+    margin-top: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
 footer{
     background-color: #45c06e;
     /* padding: 2px; */
