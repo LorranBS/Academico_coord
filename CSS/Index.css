@@ -86,7 +86,80 @@ nav {
     padding: 100px;
     height: 55vh;
 }
+/*Conteúdo - Avaliação de Desempenho */
 
+.conteudoAvaliacao{
+    background-color: #c0c0c0;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudoAvaliacao .avaliacao{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.conteudoAvaliacao .avaliacao.titulo{
+
+}
+.conteudoAvaliacao .avaliacao .buscarProfessor{
+    
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+.conteudoAvaliacao .avaliacao .dropdownProfessor{
+    
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.conteudoAvaliacao .avaliacao .criteriosAvaliacao{
+    
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+.conteudoAvaliacao .avaliacao .tabelaAvaliacao{
+    
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    
+}
+
+.conteudoAvaliacao .avaliacao .tabelaAvaliacao p{
+    text-align: center;   
+}
+
+.conteudoAvaliacao .avaliacao .comentarios{
+    display: flex;
+    margin-top: 5rem;
+    justify-content:space-around;
+}
+
+.conteudoAvaliacao .avaliacao .salvarAvaliacao{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.conteudoAvaliacao .historicoAvaliaca{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+.conteudoAvaliacao .historicoAvaliaca p{
+    text-align: center;
+    padding-top: 1rem;
+}
 footer{
     background-color: #45c06e;
     /* padding: 2px; */
