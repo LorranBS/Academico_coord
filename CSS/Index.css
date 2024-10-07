@@ -233,6 +233,57 @@ nav {
     text-align: center;
     padding-top: 1rem;
 }
+
+/* Consulta de Carga Horária*/
+
+.cargaHoraria{
+    background-color: #c0c0c0;
+    height: 75.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.cargaHoraria .pesquisa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.cargaHoraria .pesquisa .consultar{
+    margin-top: 1rem;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.cargaHoraria .pesquisa .dropdownProfessor{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around; 
+}
+
+.cargaHoraria .pesquisa .conteudo p{
+    margin-top: 2rem;
+    border: 1px solid black;
+    padding-left: 1rem;
+}
+.cargaHoraria .tabela{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+.cargaHoraria .tabela .informacao {
+    margin-top: 1rem;
+}
+
+.cargaHoraria .tabela .informacao p{
+    margin-top: 2rem;
+    border: 1px solid black;
+    width: 25rem;
+    padding-left: 1rem;
+}
 footer{
     background-color: #45c06e;
     /* padding: 2px; */
