@@ -457,6 +457,81 @@ nav {
     border: 1px solid black;
     padding: 1rem;
 }
+
+.horarioPeriodo{
+    background-color: #c0c0c0;
+    height: 75.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.horarioPeriodo .consultarPeriodo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.horarioPeriodo .consultarPeriodo .buscarPeriodo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+
+}
+
+.horarioPeriodo .consultarPeriodo .dropdownPeriodo{
+    display: flex;
+    justify-content: space-around ;
+
+    margin-top: 2.5rem;
+}
+
+.horarioPeriodo .gradePeriodo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+.horarioPeriodo .gradePeriodo .titulo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.horarioPeriodo .gradePeriodo .grade{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 0;
+    width: 650px;
+    height: 500px;
+}
+
+.horarioPeriodo .gradePeriodo .grade .itemgrade{
+    border: 2px solid black; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+}
+
+.horarioPeriodo .gradePeriodo .grade .itemgrade .p{
+    color: red;
+}
+
+.horarioPeriodo .gradePeriodo .rodapeGrade {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}   
+
+.horarioPeriodo .gradePeriodo .rodapeGrade .paginas{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+}
+
 footer{
     background-color: #45c06e;
     /* padding: 2px; */
