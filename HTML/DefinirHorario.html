@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <title>Document</title><link rel="stylesheet" href="/CSS/Index.css">
+    <link rel="stylesheet" href="/CSS/Index.css">
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
                 <ul class="submenu">
                     <li><a href="DefinirProfessor.html">Definir professor</a></li>
                     <li><a href="DefinirHorario.html">Definir horário</a></li>
-                    <li><a href="DefinirSalas.html">Definir salas</a></li>
+                    <li><a href="DefinirSalas.html">Definir dia e horários</a></li>
                 </ul>
             </li>
             <li>Consultas
@@ -41,8 +41,84 @@
         </ul>
     </nav>
 
+    <div class="salas">
+
+        <div class="definirSala">
+
+        
+            <div class="titulo">
+                <H1> Definir dia e horário por Disciplina </H1>
+            </div>
+            
+            <div class="buscarDisciplina">
+                <p> Buscar Disciplina </p>
+                <input type="text" placeholder="Digite o nome da Disciplina">
+                <button> Buscar</button>
+            </div>
+
+            <div class="dropdownDisciplina">
+
+                    <p>Selecionar Disciplina:</p>
+
+                    <!-- <button> Dropdown de Disciplina</button> -->
+                    <select name="languages" id="lang">
+                        <option value="Calculo">Calculo</option>
+                        <option value="Algebra Linear">Algebra Linear</option>
+                        <option value="Programação Orientada a Objeto">Programação Orientada a Objeto</option>
+                        <option value="Gerência de Projeto">Gerência de Projeto</option>
+                        <option value="Linguagem de Programação">Linguagem de Programação</option>
+                        <!-- Adicione outras opções aqui -->
+                    </select>
+            </div>
+
+            <div class="conteudo">
+
+                <div class="disciplina"> 
+                    <p>  Programação Orientada a Objeto - 180h </p>
+                    <button> Definir dia e horário </button>
+                </div>
+
+                <div class="disciplina"> 
+                    <p>  Estatística - 180h </p>
+                    <button> Definir dia e horário </button>
+                </div>
+
+                <div class="disciplina"> 
+                    <p>  Algebra - 180h </p>
+                    <button> Definir dia e horário </button>
+                </div>
+
+                <div class="disciplina"> 
+                    <p>  Algorítmo - 180h </p>
+                    <button> Definir dia e horário </button>
+                </div>
+            </div>
+
+            <div class="salvar">
+                <button> Salvar </button>
+                <button> Cancelar </button>
+            </div>
+
+        </div>
+
+        <div class="salasDisponiveis">
+            <div class="titulo">
+                <h1>Matérias com horários já definidos</h1>
+            </div>
+            <div class="conteudo">
+                <p>
+                    Banco de dados - 140h [Ter 18:21~21:50]
+                </p> <br>
+                <p>
+                    Programação Orientada a Objeto - 160h [Qui 18:21~21:50]
+                </p>                
+            </div>
+        </div>
+
+    </div>
+
     <footer>
-        <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Trabalho de Gerencia de Projeto. Todos os direitos reservados.</p>
         <ul>
             <li><a href="/contato">Contato</a></li>
         </ul>
